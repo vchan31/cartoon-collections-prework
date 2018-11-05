@@ -1,12 +1,13 @@
 
 def roll_call_dwarves(array1)
-  roll = []
-counter = 1
+
+  counter = 0
   array1.each do |element|
-    roll.push("#{counter}. #{element}")
     counter += 1
-  end
-  puts roll
+    puts "#{counter}. #{element}"
+    end
+  
+  
 end
 
 
