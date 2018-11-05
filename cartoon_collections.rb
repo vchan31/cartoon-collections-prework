@@ -12,13 +12,10 @@ end
 
 
 
-def summon_captain_planet# code an argument here
+def summon_captain_planet(array1)
    array1.collect do |element|
     element.capitalize + "!"
   end
-  
-  
-end
 end
 
 
