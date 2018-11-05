@@ -20,7 +20,11 @@ end
 
 
 def long_planeteer_calls# code an argument here
-  # Your code here
+  def calls(array1)
+  array1.any? do |word|
+    word.length > 4
+  end
+end
 end
 
 
