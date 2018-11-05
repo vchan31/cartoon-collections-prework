@@ -19,13 +19,12 @@ def summon_captain_planet(array1)
 end
 
 
-def long_planeteer_calls# code an argument here
-  def calls(array1)
+def long_planeteer_calls(array1)
   array1.any? do |word|
     word.length > 4
   end
 end
-end
+
 
 
 def find_the_cheese# code an argument here
