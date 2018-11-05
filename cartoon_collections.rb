@@ -27,7 +27,8 @@ end
 
 
 
-def find_the_cheese# code an argument here
-  # the array below is here to help
-  cheese_types = ["cheddar", "gouda", "camembert"]
+def find_the_cheese(array1)
+  array1.find do |word|
+  word === 'cheddar'|| word === "gouda" || word == "thyme"
+  end
 end
